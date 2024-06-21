@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VuforiaUnityInfo version="7.0">
+    <TargetSet version="5.0" toolVersion="2.8.1">
+        <CylinderTarget name="Charrua_Can" version="3.0" targetId="b4a8252141b841d8b0a6d7d441c2b344" sideLength="0.130000" topDiameter="0.070000" bottomDiameter="0.070000" sideImage="Charrua_Can.Body_scaled.jpg"/>
+        <CylinderTarget name="Fanta_Can" version="3.0" targetId="76e82b6670c74adcbae33e316133b74a" sideLength="0.130000" topDiameter="0.070000" bottomDiameter="0.070000" sideImage="Fanta_Can.Body_scaled.jpg"/>
+        <CylinderTarget name="Coca_Can" version="3.0" targetId="e1f47061fc034703bfea8d98b82aaa79" sideLength="0.130000" topDiameter="0.070000" bottomDiameter="0.070000" sideImage="Coca_Can.Body_scaled.jpg"/>
+    </TargetSet>
+</VuforiaUnityInfo>

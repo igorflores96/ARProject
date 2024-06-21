@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="cx_nescaau.Back" size="0.160000 0.254942"/>
+        <ImageTarget name="cx_nescaau.Front" size="0.160000 0.254942"/>
+        <ImageTarget name="cx_sucrilhos.Back" size="0.160000 0.254942"/>
+        <ImageTarget name="cx_sucrilhos.Front" size="0.160000 0.254942"/>
+        <ImageTarget name="cx_snow.Back" size="0.160000 0.254942"/>
+        <ImageTarget name="cx_nescau.Front" size="0.160000 0.254942"/>
+        <MultiTarget name="cx_nescaau">
+            <Part name="cx_nescaau.Front" translation="0 0 0.023499999195337296" rotation="AD: 1 0 0 0"/>
+            <Part name="cx_nescaau.Back" translation="0 0 -0.023499999195337296" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="cx_sucrilhos">
+            <Part name="cx_sucrilhos.Front" translation="0 0 0.025499999523162842" rotation="AD: 1 0 0 0"/>
+            <Part name="cx_sucrilhos.Back" translation="0 0 -0.025499999523162842" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="cx_snow">
+            <Part name="cx_nescau.Front" translation="0 0 0.023499999195337296" rotation="AD: 1 0 0 0"/>
+            <Part name="cx_snow.Back" translation="0 0 -0.023499999195337296" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
