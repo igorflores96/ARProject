@@ -12,7 +12,7 @@ public class SpawnObjects : MonoBehaviour
         {
             _objectAudio.Play();
             _currentObject = Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
-            _currentObject.transform.parent = this.transform; 
+            _currentObject.transform.parent = this.transform;
         }
     }
 

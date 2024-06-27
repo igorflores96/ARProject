@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="doritos.Front" size="0.120000 0.169956"/>
+        <ImageTarget name="doritos.Back" size="0.120000 0.169956"/>
+        <ImageTarget name="fandangos.Front" size="0.120000 0.179736"/>
+        <ImageTarget name="fandangos.Back" size="0.120000 0.179736"/>
+        <ImageTarget name="cheetos.Front" size="0.120000 0.179736"/>
+        <ImageTarget name="cheetos.Back" size="0.120000 0.179736"/>
+        <MultiTarget name="doritos">
+            <Part name="doritos.Front" translation="0 0 5.000000237487257E-4" rotation="AD: 1 0 0 0"/>
+            <Part name="doritos.Back" translation="0 0 -5.000000237487257E-4" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="fandangos">
+            <Part name="fandangos.Front" translation="0 0 5.000000237487257E-4" rotation="AD: 1 0 0 0"/>
+            <Part name="fandangos.Back" translation="0 0 -5.000000237487257E-4" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+        <MultiTarget name="cheetos">
+            <Part name="cheetos.Front" translation="0 0 5.000000237487257E-4" rotation="AD: 1 0 0 0"/>
+            <Part name="cheetos.Back" translation="0 0 -5.000000237487257E-4" rotation="AD: 0 1 0 180"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
